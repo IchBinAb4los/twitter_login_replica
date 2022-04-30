@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+img {
+  width: 20px; }
+
+body {
+  background-color: #000;
+  color: #e7e9ea;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.container {
+  display: flex;
+  flex-flow: row wrap; }
+  .container .imgdiv {
+    width: 54%;
+    height: 100%; }
+    .container .imgdiv img {
+      width: 100%;
+      height: 100%; }
+  .container .content {
+    padding-top: 80px;
+    padding-left: 40px;
+    width: 46%;
+    height: 100%;
+    display: flex;
+    flex-flow: column; }
+    .container .content .icondiv {
+      width: 20%;
+      height: 100px; }
+      .container .content .icondiv img {
+        width: 25%;
+        height: 40%; }
+    .container .content h1 {
+      margin-top: 0;
+      width: 70%;
+      font-size: 70px;
+      letter-spacing: 2px; }
+    .container .content h2 {
+      margin-top: 10px;
+      font-size: 32px;
+      letter-spacing: 2px; }
+    .container .content .buttons {
+      display: flex;
+      flex-flow: column;
+      gap: 10px; }
+      .container .content .buttons .button {
+        display: flex;
+        flex-flow: row wrap;
+        width: 35%;
+        background-color: #fff;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        height: 40px;
+        padding: 0 30px 0 30px;
+        transition: .2s all ease; }
+        .container .content .buttons .button .icon_div {
+          width: 20%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .container .content .buttons .button .icon_div img {
+            margin: 0;
+            width: 50%;
+            height: 50%; }
+        .container .content .buttons .button:hover {
+          cursor: pointer; }
+        .container .content .buttons .button p {
+          margin: 0;
+          width: 80%; }
+      .container .content .buttons .fst {
+        color: #444;
+        font-weight: 500;
+        font-size: 15px; }
+        .container .content .buttons .fst:hover {
+          background-color: #f7faff; }
+      .container .content .buttons .snd {
+        font-weight: 600; }
+        .container .content .buttons .snd:hover {
+          background-color: #e6e6e6; }
+      .container .content .buttons .o {
+        display: inline-block;
+        overflow: hidden;
+        text-align: center;
+        color: #bbb;
+        font-size: 14px;
+        color: #888;
+        text-align: center;
+        margin: 0;
+        width: 35%;
+        height: 20px; }
+      .container .content .buttons .o > span {
+        position: relative;
+        display: inline-block; }
+      .container .content .buttons .o > span:before, .container .content .buttons .o > span:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        border-bottom: 1px solid #888;
+        width: 100vw;
+        margin: 0 20px; }
+      .container .content .buttons .o > span:before {
+        right: 100%; }
+      .container .content .buttons .o > span:after {
+        left: 100%; }
+      .container .content .buttons .trd {
+        background: #1d9bf0;
+        padding: 12px;
+        font-size: 15px;
+        text-align: center; }
+        .container .content .buttons .trd p {
+          width: 100%;
+          font-weight: 500;
+          color: #fff; }
+        .container .content .buttons .trd:hover {
+          background-color: #1a8cd8; }
+      .container .content .buttons .terms {
+        margin-top: 0;
+        width: 35%;
+        font-size: 11px;
+        color: #888; }
+        .container .content .buttons .terms span {
+          color: #0188e6; }
+          .container .content .buttons .terms span:hover {
+            text-decoration: underline;
+            cursor: pointer; }
+    .container .content .log {
+      margin-top: 30px; }
+      .container .content .log h3 {
+        font-size: 17px; }
+      .container .content .log button {
+        width: 35%;
+        height: 40px;
+        border-radius: 20px;
+        outline: none;
+        border: 2px solid #888;
+        background-color: #000;
+        color: #0188e6;
+        font-weight: 500;
+        transition: .2s all ease; }
+        .container .content .log button:hover {
+          background-color: rgba(3, 16, 25, 0.8);
+          cursor: pointer; }
+
+footer {
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+  footer a {
+    color: #888;
+    text-decoration: none;
+    font-size: 13px; }
+    footer a:hover {
+      text-decoration: underline; }
+  footer .copy:hover {
+    text-decoration: none;
+    cursor: default; }
+
+/*# sourceMappingURL=styles.css.map */
